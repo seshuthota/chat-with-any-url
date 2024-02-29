@@ -14,12 +14,12 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 load_dotenv()
 
 # Google Gemini LLM
-# llm = GoogleGenerativeAI(model='gemini-pro')
-# embedding = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+llm = GoogleGenerativeAI(model='gemini-pro')
+embedding = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 # OpenAI LLM
-llm = ChatOpenAI(model="gpt-3.5-turbo")
-embedding = OpenAIEmbeddings()
+# llm = ChatOpenAI(model="gpt-3.5-turbo")
+# embedding = OpenAIEmbeddings()
 
 
 def get_response(user_input):
