@@ -1,4 +1,4 @@
-langchain==0.1.4
+langchain
 langchain_community==0.0.16
 langchain_core==0.1.17
 langchain_openai==0.0.5
@@ -7,4 +7,3 @@ streamlit==1.30.0
 chromadb==0.3.29
 bs4==0.0.2
 langchain-google-genai
-langchain
